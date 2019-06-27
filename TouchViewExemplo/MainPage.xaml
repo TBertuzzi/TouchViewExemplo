@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:forms="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Core"
+             xmlns:touch="clr-namespace:TouchEffect;assembly=TouchEffect"
+             x:Name="page"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d" x:Class="TouchViewExemplo.MainPage">
+    <StackLayout>
+        <!--
+        <Frame 
+            touch:TouchEff.PressedAnimationDuration="800"
+            touch:TouchEff.RegularAnimationDuration="800"
+            touch:TouchEff.PressedScale="0.9"
+            touch:TouchEff.PressedOpacity="0.6"
+            touch:TouchEff.RippleCount="-1"
+            
+            Padding="10, 5"
+            BackgroundColor="Blue"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            
+            <Frame.Effects>
+                <touch:TouchEff Completed="Handle_Completed"/>
+            </Frame.Effects>
+            
+            <Label Text="Clica aqui" 
+                   TextColor="White" 
+                   FontSize="60"/>
+            
+        </Frame>-->
+        <!--
+         <Frame 
+            touch:TouchEff.PressedRotationY="180"
+                touch:TouchEff.IsToggled="false"
+                touch:TouchEff.Command="{Binding Command, Source={x:Reference page}}"
+                touch:TouchEff.RegularBackgroundColor="Green"
+                touch:TouchEff.PressedBackgroundColor="Black"
+                touch:TouchEff.PressedScale="1.2"
+                touch:TouchEff.RippleCount="-1"
+                touch:TouchEff.PressedAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.RegularAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.PressedAnimationDuration="500"
+                touch:TouchEff.RegularAnimationDuration="500"
+            
+            Padding="10, 5"
+            BackgroundColor="Blue"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            
+            <Frame.Effects>
+                <touch:TouchEff Completed="Handle_Completed"/>
+      
+            </Frame.Effects>
+            
+            <Label Text="Clica aqui" 
+                   TextColor="White" 
+                   FontSize="60"/>
+            
+        </Frame>-->
+        
+        
+        <!-- <Frame 
+             touch:TouchEff.IsToggled="true"
+                touch:TouchEff.Command="{Binding Command, Source={x:Reference page}}"
+                touch:TouchEff.RegularBackgroundColor="Red"
+                touch:TouchEff.PressedBackgroundColor="Gold"
+                touch:TouchEff.PressedScale="1.2"
+                touch:TouchEff.RippleCount="-1"
+                touch:TouchEff.PressedRotationY="180"
+                touch:TouchEff.PressedAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.RegularAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.PressedAnimationDuration="500"
+                touch:TouchEff.RegularAnimationDuration="500"
+            
+            Padding="10, 5"
+            BackgroundColor="Blue"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            
+            <Frame.Effects>
+                <touch:TouchEff Completed="Handle_Completed"/>
+      
+            </Frame.Effects>
+            
+            <Label Text="Clica aqui" 
+                   TextColor="White" 
+                   FontSize="60"/>
+            
+        </Frame>-->
+        
+        <Frame 
+            touch:TouchEff.PressedRotationY="180"
+                touch:TouchEff.IsToggled="false"
+                touch:TouchEff.Command="{Binding Command, Source={x:Reference page}}"
+                touch:TouchEff.RegularBackgroundColor="Red"
+                touch:TouchEff.PressedBackgroundColor="Gold"
+                touch:TouchEff.PressedScale="1.2"
+                touch:TouchEff.RippleCount="-1"
+                touch:TouchEff.PressedAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.RegularAnimationEasing="{x:Static forms:Easing.CubicInOut}"
+                touch:TouchEff.PressedAnimationDuration="500"
+                touch:TouchEff.RegularAnimationDuration="500"
+            
+            Padding="10, 5"
+            BackgroundColor="Blue"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            
+            <Frame.Effects>
+                <touch:TouchEff Completed="Handle_Completed"/>
+      
+            </Frame.Effects>
+            
+            <Label Text="Clica aqui" 
+                   TextColor="White" 
+                   FontSize="60"/>
+            
+        </Frame>
+        
+     
+    </StackLayout>
+</ContentPage>
